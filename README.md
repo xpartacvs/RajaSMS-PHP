@@ -17,7 +17,11 @@ Instalasi
 <ol>
   <li>Copy file <code>rajasms.class.php</code> ke direktori project PHP Anda.</li>
   <li>Load class RajaSMS: <code>include_once 'rajasms.class.php';</code></li>
-  <li>Buat object RajaSMS dengan masukan nilai variabel yang Anda dapat dari akun RajaSMS: <code>$rajasms = new RajaSMS('USERNAME AKUN RAJASMS', 'PASSWORD AKUN RAJASMS', 'APIKEY AKUN RAJASMS');</code></li>
+  <li>Buat object RajaSMS dengan masukan nilai variabel yang Anda dapat dari akun RajaSMS:
+    <ul>
+      <li><code>$rajasms = new RajaSMS('USERNAME', 'PASSWORD', 'APIKEY');</code></li>
+    </ul>
+  </li>
 </ol>
 
 Daftar Fungsi
